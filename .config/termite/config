@@ -1,0 +1,102 @@
+[options]
+font = Noto Mono 10
+padding = 8
+border_width = 8
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+#font = Noto Mono 9
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = underline
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+[colors]
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+foreground = #dcdccc
+foreground_bold = #ffffff
+background = #1F1F1F
+
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
+# if unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# colors from color0 to color254 can be set
+
+# special
+foreground      = #a6a6a6
+foreground_bold = #a6a6a6
+cursor          = #c5c8c6
+background      = #181818
+
+
+#BLACK
+color0 =     #303030
+color8 =     #5E5E5E
+
+#WHITE
+color7 =     #C6C6C6
+color15 =     #FFFFFF
+
+#RED
+color1 =   #9B2323
+color9 =      #9B2323
+
+#YELLOW
+color3 =     #B51D2C
+color11 =     #B51D2C
+
+#GREEN
+color2 =    #A83334
+color10 =     #A83334
+
+#CYAN
+color6 =   #9A413D
+color14 =     #9a413d
+
+#BLUE
+color4 =    #8C4B46
+color12 =     #8C4B46
+
+#MAGENTA
+color5 =    #d15345
+color13 =     #ba5247
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 8
+#border = #3f3f3f
+#border_width = 8
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
